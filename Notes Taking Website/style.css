@@ -1,0 +1,48 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%;
+  }
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+  #secondary {
+    width: 100%;
+    margin: 0;
+    border: none;
+  }
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: rgb(5, 5, 5);
+  font-size: 25px;
+}
+h5 {
+  font-size: large;
+  font-weight: 400;
+  color: aliceblue;
+}
+h1 {
+  color: aliceblue;
+  display: inline-block;
+  padding: 22px;
+  text-decoration: underline;
+}
+h1:hover {
+  color: red;
+  transition: 500ms ease;
+}
+h5:hover {
+  color: red;
+  transition: 500ms ease;
+}
